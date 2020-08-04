@@ -8,7 +8,7 @@
 
  ### How to install Browser-Sync
 
- First, you need to make sure that you have NodeJS installed. You can do that [here](https://nodejs.org/en/download/). To test that you have installed Node correctly, type `node -v` into the command line (CMD on windows and Terminal on mac) to display the version of Node that you have installed.
+ First, you need to make sure that you have NodeJS installed. You can download NodeJS [here](https://nodejs.org/en/download/). To test that you have installed Node correctly, type `node -v` into the command line (CMD on windows and Terminal on mac) to display the version of Node that you have installed.
 
  Once you have done that, you can globally install the Browser-Sync package by typing `npm install browser-sync -g` into your command line environment. This should install the package globally, meaning it is accessible anywhere on your machine. 
 
@@ -20,4 +20,4 @@ First you should navigate (in your command line) to the directory that contains 
 
 `browser-sync start --server -f -w`
 
-This command will start a web server, and it will also refresh whenever a file is changed, so you don't have to manually refresh the page to see every change. 
+This command will start a web server, and it will also refresh the webpage whenever a file is changed, so you don't have to manually refresh the page to see every change. 
